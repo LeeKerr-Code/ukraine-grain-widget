@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ],
+  "functions": {
+    "api/grain-prices.js": { "memory": 256, "maxDuration": 10 },
+    "api/update-prices.js": { "memory": 256, "maxDuration": 10 }
+  }
+}

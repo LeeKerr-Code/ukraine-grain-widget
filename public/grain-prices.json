@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "lastUpdated": "2026-06-08",
+    "updatedBy": "manual",
+    "source": "UkrAgroConsult / APK-Inform",
+    "notes": "Central Ukraine benchmarks. Regional differentials applied by widget. UAH/USD rate approximate.",
+    "uahUsdRate": 41.5
+  },
+  "prices": {
+    "wheat": {
+      "label_en": "Wheat (2nd grade)",
+      "label_uk": "Пшениця (2 клас)",
+      "cpt_usd": 220,
+      "port_usd": 232,
+      "exw_usd": 205,
+      "week_chg": -2,
+      "month_chg": 5,
+      "year_chg": 42,
+      "source_note": "APK-Inform April 2026; logos-pres.md April 2026"
+    },
+    "corn": {
+      "label_en": "Corn",
+      "label_uk": "Кукурудза",
+      "cpt_usd": 208,
+      "port_usd": 218,
+      "exw_usd": 193,
+      "week_chg": 1,
+      "month_chg": -3,
+      "year_chg": 68,
+      "source_note": "APK-Inform Dec 2025 / agroreview.com Dec 2025"
+    },
+    "sunflower": {
+      "label_en": "Sunflower",
+      "label_uk": "Соняшник",
+      "cpt_usd": 545,
+      "port_usd": 503,
+      "exw_usd": 507,
+      "week_chg": -8,
+      "month_chg": 15,
+      "year_chg": 110,
+      "source_note": "logos-pres.md April 2026: central ~$545/t, Odesa ports ~$500/t"
+    },
+    "rapeseed": {
+      "label_en": "Rapeseed",
+      "label_uk": "Ріпак",
+      "cpt_usd": 400,
+      "port_usd": 412,
+      "exw_usd": 372,
+      "week_chg": 3,
+      "month_chg": -6,
+      "year_chg": 25,
+      "source_note": "agroreview.com Nov 2025: 23000-24000 UAH/t CPT processor"
+    },
+    "soy": {
+      "label_en": "Soybean",
+      "label_uk": "Соя",
+      "cpt_usd": 325,
+      "port_usd": 338,
+      "exw_usd": 302,
+      "week_chg": -4,
+      "month_chg": -2,
+      "year_chg": -18,
+      "source_note": "UkrAgroConsult May 2026: avg ~19227 UAH/t EXW"
+    }
+  },
+  "marketNotes": {
+    "wheat":     { "en": "Harvest pressure approaching; steady EU demand", "uk": "Тиск нового врожаю; стабільний попит ЄС" },
+    "corn":      { "en": "Strong YoY recovery; bioethanol demand growing", "uk": "Сильне річне зростання; попит біоетанолу зростає" },
+    "sunflower": { "en": "Supply shortage of quality seed; processor pre-season demand", "uk": "Дефіцит якісної сировини; попит переробників перед сезоном" },
+    "rapeseed":  { "en": "Reduced sown area; processors shifting to sunflower", "uk": "Скорочення площ; переробники переходять на соняшник" },
+    "soy":       { "en": "Brazil/US crop pressure on global prices; domestic demand stable", "uk": "Тиск врожаїв Бразилії/США; внутрішній попит стабільний" }
+  },
+  "sentiment": {
+    "wheat":     "neutral",
+    "corn":      "bull",
+    "sunflower": "bull",
+    "rapeseed":  "bear",
+    "soy":       "bear"
+  }
+}

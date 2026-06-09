@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ukraine Grain Price Widget</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #f0f0f0; display: flex; justify-content: center; padding: 40px 20px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module">
+    import React from "react";
+    import { createRoot } from "react-dom/client";
+    import GrainPriceWidget from "./src/GrainPriceWidget.jsx";
+    createRoot(document.getElementById("root")).render(React.createElement(GrainPriceWidget));
+  </script>
+</body>
+</html>
