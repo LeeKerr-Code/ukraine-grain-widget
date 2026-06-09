@@ -3,8 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 // ── API endpoint — Vercel proxy to BlackSeaGrain.io ───────────────────────────
 // In production this hits /api/grain-prices (api/grain-prices.js)
 // In local dev set VITE_GRAIN_API_URL=http://localhost:3000/api/grain-prices
-const API_URL = (typeof import !== "undefined" && import.meta?.env?.VITE_GRAIN_API_URL)
-  || "/api/grain-prices";
+const API_URL = import.meta.env?.VITE_GRAIN_API_URL || "/api/grain-prices";
 
 // Auto-refresh every 30 minutes (matches BSG update frequency)
 const REFRESH_MS = 30 * 60 * 1000;
